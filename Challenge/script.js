@@ -39,6 +39,6 @@ const root1={
    document.querySelector('dl[data-key="order3"] div.biscuits dd.count').innerHTML=root3.biscuits.dataset.biscuits
    document.querySelector('dl[data-key="order3"] div.donuts dd.count').innerHTML=root3.donuts.dataset.donuts 
    document.querySelector('dl[data-key="order3"] div.pancakes dd.count').innerHTML=root3.pancakes.dataset.pancakes
-   document.querySelector('dl[data-key="order3"] div.status dd').innerHTML=root3.status.dataset.status==='True'? 'pending': 'delivered'
+   document.querySelector('dl[data-key="order3"] div.status dd').innerHTML=root3.status.dataset.status==='True'? 'pending': 'delivered'//tenary
 
    
